@@ -1,0 +1,71 @@
+HTML Tags
+We've mentioned HTML tags but haven't really examined the sheer range of tags that HTML has available. There are a large number of tags in HTML. This unit will survey many of them, but it is worth using the following resources to explore them in detail: 
+
+MDN HTML Reference:
+
+            https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+W3Schools HTML Examples:
+
+            https://www.w3schools.com/tags/
+
+Let's try to take a structure approach to exploring the range of tags. Starting at the highest level we have an HTML document that contains a definition tag and structural tags. The structural tags can then contain other tags, frequently in combination and encapsulated within each other. Let's now survey the range of standard HTML tags. First we have the
+
+
+Document Definition:
+
+            <doctype>
+
+Document Structure:
+
+            <html><head><body>
+
+Within the <head> section:
+
+            <title>, <base>, <meta>, <style>, <link>
+
+Tags for text blocks:
+
+            <address>, <blockquote>, <div>, <h1>...<h6>, <p>, <pre>, <xmp>
+
+Tags that define lists:
+
+            <dir>, <dl>, <dt>, <dd>, <menu>, <ol>, <ul>, <li>
+
+Tags that define text format:
+
+            <b>, <basefont>, <big>, <cite>, <code>, <em>, <font>, <i>, <kbd>, <strike>, <sup>, <tt>, <u>, <var>
+
+Tags that define anchors and links:
+
+            <a>
+
+Tags that define images and image maps:
+
+            <img>, <area>, <map>
+
+Tags that define tables:
+
+            <table>, <caption>, <thead>, <tbody>, <tfoot>, <tr>, <th>, <td>
+
+Tags that define forms:
+
+            <form>, <fieldset>, <input>, <select>, <option>, <textarea>, <label>, <legend>, <isindex>
+
+Tags that define frames:
+
+            <frame>, <frameset>, <iframe>
+
+Tags that define scripts:
+
+            <script>, <noscript>
+
+Tags that define applets & plug-ins:
+
+            <applet>, <param>, <object> (<embed> not standard)
+
+Tags that adjust text:
+
+            <br>, <center>, <hr>
+
+Note that HTML5 incorporates additional tags that we'll look at later. Over the next few sections we'll survey some of these in more detail.
