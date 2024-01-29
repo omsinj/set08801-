@@ -1,0 +1,13 @@
+Text Formatting Tags
+These tags should be reasonably straightforward and understandable as they usually have equivalent concepts in word processing which most of us should be familiar with. We have: 
+
+• Headings: <h1>, ..., <h6> - various level from the largest <h1> through to the smallest <h6>
+• Physical Styles: <b>, <i> - for bold and italic. As these are presentational they are slowly being phased out in preference of <em> for "emphasis"
+• Logical Styles: <cite>, <code>, <em>, <strong> - used to delineate blocks of text that should be treated differently.
+
+Note that most browsers will also still let you do things like the following:
+
+
+             <font face=“” size=“”>
+
+You might see this in the wild, especially in older pages. You can do this but shouldn't. EVER. This is mixing presentation and structure. You should always use CSS for presentational aspects of typography if you want your page to have a given look. You can use styles like <em> to hint to CSS that you want something to be presented differently, but the actual presentation, how the user experiences the page, is dependent upon the users context so shouldn't spelt out explicitly in the HTML. Support for all presentational aspects within HTML is slowly being phased out as CSS is both a better and more powerful way to do things, but also allows a much better "separation of concerns" between structure and presentation.
