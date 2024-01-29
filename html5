@@ -1,0 +1,33 @@
+HTML 5
+Semantic meaning has always been present in HTML but is now, since HTML5, emphasised. HTML5 attempts to address this through addition of meaningful grouping tags so that the various parts of a page can be delineated and communicated more easily and reliably. These could be considered as "sectioning elements" or even as “divs but with added meaning”.
+
+HTML5 includes support for the following semantic markup:
+
+
+<section> - a thematic grouping of content, typically with a heading
+
+<article> - independent, self-contained content (suitable for syndication or reuse)
+
+<header> - container for introductory content
+
+<footer> - information about its containing element (author, copyright,&c.)
+
+<nav> - major blocks of navigational links
+
+<aside> - related additional content
+
+<figure> & <figcaption> - visually explain an image
+
+<main> - the core content of the document
+
+<mark> - highlighted/emphasised sections
+
+<details> - additional information that can be hidden/shown
+
+<summary> - visible heading associated with <details>
+
+<time> - date/time information
+
+Most of these tags should have names that enable you to reasonably easily infer their intent. This is what makes them semantic tags. These new tags can be used to communicate the various parts of a page as shown in the following figure.
+
+figure showing semantic tags communicating the various parts of a page
