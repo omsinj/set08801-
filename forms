@@ -1,0 +1,84 @@
+Forms
+Everything so far has been about retrieving HTML pages from the Web server. By default this is, implicitly, using the HTTP GET method behind the scenes. What if we instead wanted to send data to the web server instead. We have a variety of methods to do that, especially once we get to using JS, but for the moment, the easiest way to send data to a server is to create a form to collect the data to send, then to use a button to "post" the data to the server. This uses the HTTP POST method. For example: 
+
+            <form name=“name” action=“page.html” method=“method”>
+
+                        … various controls …
+
+            </form>
+
+To create a form we use the <form> tag and set various attributes telling the form what its name is, where the form should post to when its action is triggered, and what method to execute when the action is triggered, e.g.
+
+
+            <form name="registration" action="/my-registration-handling-page" method="post">
+
+
+                        … various controls …
+
+            </form>
+
+Notice that I've only mentioned the things that make up a form in passing and made reference to them as "… various controls …" in the examples. This is because there are quite a few form controls that we can use to get user input and these are best discussed in the next section.
+Form Controls
+Forms can be built from a whole heap of different controls. These include buttons, checkboxes, radio buttons, text boxes, password input text boxes, hidden fields, file upload fields, selection lists, text areas, labels, and various mechanisms for grouping things together. Most of these should be familiar to you in principle from the kinds of data entry mechanisms that we are used to in most desktop and mobile applications. Similarly, if you want to see an example of a form then look at any signup or login page on any random website. An awful lot of the functionality that we are used to using on the modern web involves form elements. Note that these can all be styled using CSS so sometimes you might not immediately recognise the exact underlying element that is being used on any given page.
+
+Buttons:
+
+
+            <input type="submit">
+
+            <input type="reset">
+
+            <input type="button">
+
+            <input type=“image">
+
+Check boxes:
+
+
+            <input type=“checkbox”>
+
+Radio buttons:
+
+
+            <input type=“radio”>
+
+Text boxes:
+
+
+            <input type=“text”>
+
+Password textboxes:
+
+
+            <input type=“password”>
+
+Hidden fields:
+
+
+            <input type=“hidden”>
+
+File Upload:
+
+
+            <input type=“file”>
+
+Selection Lists:
+
+
+            <select> <option> <optgroup>
+
+ Text Areas:
+
+
+            <textarea>
+
+Label (for a control)
+
+
+            <label>
+
+Group of controls:
+
+
+            <fieldset>, <legend>
+
