@@ -1,0 +1,10 @@
+Using CSS & HTML Together
+In the modern web, CSS can be used with HTML in 3 primary ways which are very similar to what we've just seen. Considering the previous topic, the only approach that is no longer valid is the earliest, using presentational attributes. All three others are valid in the modern web but have various advantages and disadvantages. We can:
+
+            1. Attach CSS to a specific HTML element using the style parameter
+
+            2. Inline CSS globally by collecting it together using a <style> block
+
+            3. Retrieve CSS from an external URL using directives like this: 
+
+                        <link rel="stylesheet" type="text/css" href=“theme.css”>
